@@ -1,6 +1,12 @@
 <nav class="navbar navbar-expand navbar-light bg-light">
   <div class="nav navbar-nav">
       <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">Home</a>
+      <a class="nav-item nav-link" routerLink="liste-student">Liste-etudiants</a>
+      <a class="nav-item nav-link" routerLink="add-student" >Ajouter-etudiants</a>
+      <!--<a class="nav-item nav-link" routerLink="updat-student" >Modifier-etudiants</a>-->
   </div>
 </nav>
+<div class="container">
+  page principale
+  <router-outlet></router-outlet>
+</div>
